@@ -1,0 +1,17 @@
+@startuml
+package .{
+annotation . {
+
+
+
+class MyClass {
+-property1: string
+-property2: int
+
+}
+}
+
+
+@enduml
+
+bikin queue, enque dan deque, tapi datanya disipan di linkedlist
