@@ -7,9 +7,15 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Show Shell') {
       steps {
         sh 'ls -la'
+      }
+    }
+
+    stage('Print') {
+      steps {
+        echo 'Hai, you using jenkins'
       }
     }
 
